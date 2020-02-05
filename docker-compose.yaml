@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  proxy1:
+    build: ./proxy1/.
+    ports:
+      - '9090:80'
+  server:
+    build: ./server/.
